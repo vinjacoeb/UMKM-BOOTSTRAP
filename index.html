@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tugas Praktik#5 - Kelompok 5 Fullstack#4</title>
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#carousel">Beranda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#tentangkami">Tentang Kami</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#produk">Produk</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#kontak">Kontak Kami</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Carousel Start -->
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner1.png" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption">
+                            <h4>Selamat Datang di Website</h4>
+                            <h5 class="caption1">UD Putri Mandiri</h5>
+                            <a href="#tentangkami" class="btn btn-light">Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner2.jpg" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption">
+                            <h5>UD Putri Mandiri</h5>
+                            <p class="caption2">
+                                Pelopor rempah-rempah di Dusun II, Ringinlarik, Kec. Musuk, Kabupaten Boyolali, Jawa Tengah 57331.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner3.jpeg" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption">
+                            <h5>UD Putri Mandiri</h5>
+                            <p class="caption3">
+                                Memiliki beberapa kategori rempah-rempah sesuai kebutuhan anda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Carousel End -->
+            <!-- About Start -->
+            <div class="container-fluid py-5" id="tentangkami">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-center mb-5 display-6">Tentang Kami</h2>
+                        <div class="col-lg-6">
+                            <div class="row mb-5">
+                                <img class="img-fluid imgtentangkami" src="img/about.jpg" alt="" style="max-width: 100%; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="section-title">
+                                <h2 class="">UD Putri Mandiri - Suplier Rempah Kab. Boyolali</h2>
+                            </div>
+                            <div class="border-top mb-4"></div>
+                            <div class="row ">
+                                <p style="text-align: justify;">
+                                    UD Putri Mandiri, berlokasi di Dusun II, Ringinlarik, Kecamatan Musuk, Kabupaten Boyolali, Jawa Tengah 57331. Berdiri sejak tahun 2022 untuk menyajikan beragam rempah-rempah terbaik. Rempah-rempah Kami memiliki aroma khas yang alami dan dan memiliki berbagai manfaat untuk kesehatan, dan kami berkomitmen menawarkan berbagai pilihan rempah-rempah berkualitas untuk memenuhi semua kebutuhan Anda.                                </p>
+                            </div>
+                            <div class="row">
+                                <p style="text-align: justify;">UD Putri Mandiri  berkomitmen untuk menyajikan produk berkualitas tinggi sesuai kebutuhan anda</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- About End -->
+            <!-- produk -->
+            <div class="container-fluid py-5" id="produk">
+                <div class="container">
+                    <div class="tab-class">
+                        <div class="row">
+                            <div class="col-lg-4 mb-3 text-start">
+                                <h2 class="display-6">Produk</h2>
+                            </div>
+                            <div class="col-md-8 kategori d-flex justify-content-end">
+                                <ul class="nav nav-pills mb-5">
+                                    <li class="nav-item mr-2 mb-3 active" role="presentation">
+                                        <button class="nav-link buttonKategori active border rounded-pill px-4 py-2 mx-2" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#tab-1" type="button" role="tab" aria-controls="pills-Unggulan" aria-selected="true">Unggulan</button>
+                                    </li>
+                                    <li class="nav-item mr-2 mb-3" role="presentation">
+                                        <button class="nav-link buttonKategori border rounded-pill px-4 py-2 mx-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#tab-2" type="button" role="tab" aria-controls="pills-1" aria-selected="false">Pengobatan</button>
+                                    </li>
+                                    <li class="nav-item mr-2 mb-3" role="presentation">
+                                        <button class="nav-link buttonKategori border rounded-pill px-4 py-2 mx-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#tab-3" type="button" role="tab" aria-controls="pills-2" aria-selected="false">Dapur</button>
+                                    </li>
+                                    <li class="nav-item mr-2 mb-3" role="presentation">
+                                        <button class="nav-link buttonKategori border rounded-pill px-4 py-2 mx-2" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#tab-4" type="button" role="tab" aria-controls="pills-3" aria-selected="false">Lain-Lain</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <h5 class="mb-4">Keunggulan produk kami terletak pada rempah pilihan yang menjadi inti dari setiap sajian, memperkaya cita rasa dan aroma masakan.</h5>
+                            <div class="row gy-4 d-flex">
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Unggulan/lada putih.jpg" class="card-img-top img-fluid img-thumbnail" alt="Lada">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Lada</h5>
+                                            <p>
+                                                Beberapa penelitian menunjukkan bahwa konsumsi lada dapat membantu meningkatkan kesehatan jantung dengan mengurangi kadar kolesterol dan tekanan darah.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Unggulan/kemiri.jpg" class="card-img-top img-fluid img-thumbnail" alt="Kemiri">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Kemiri</h5>
+                                            <p>
+                                                Minyak kemiri sering digunakan dalam perawatan kecantikan untuk melembapkan kulit dan rambut, serta membantu memperbaiki kerusakan akibat paparan sinar matahari atau bahan kimia.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Unggulan/biji wijen.png" class="card-img-top img-fluid img-thumbnail" alt="Biji Wijen">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Biji Wijen</h5>
+                                            <p>
+                                                Wijen adalah semak semusim yang termasuk dalam famili Pedaliaceae. Tanaman ini dibudidayakan sebagai sumber minyak nabati, yang dikenal sebagai minyak wijen, yang diperoleh dari ekstraksi bijinya.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Unggulan/kayumanis.png" class="card-img-top img-fluid img-thumbnail" alt="Kayu Manis">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Kayu Manis</h5>
+                                            <p>
+                                                Kayu manis merupakan tumbuhan yang digunakan sebagai penambah rasa dan wangi makanan. Menghilangkan bau amis atau bau tak sedap pada bahan makanan dan menciptakan rasa sedap.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <h5 class="mb-4">Rempah ini bisa menjadi rekomendasi obat anda. Karena merupakan rempah-rempah untuk pengobatan.</h5>
+                            <div class="row gy-4 d-flex">
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/asam jawa.jpg" class="card-img-top img-fluid img-thumbnail" alt="Asam Jawa">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Asam Jawa</h5>
+                                            <p class="text-justify">
+                                                Asam jawa digunakan sebagai pengawet alami dalam makanan karena memiliki sifat antimikroba yang dapat menghambat pertumbuhan bakteri dan jamur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/bunga lawang.jpeg" class="card-img-top img-fluid img-thumbnail" alt="Bunga Lawang">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Bunga Lawang</h5>
+                                            <p class="text-justify">
+                                                Dalam pengobatan tradisional, bunga lawang digunakan untuk meredakan masalah pencernaan seperti kembung dan gangguan pencernaan lainnya.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/cengkih.jpg" class="card-img-top img-fluid img-thumbnail" alt="Cengkih">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Cengkih</h5>
+                                            <p class="text-justify">
+                                                Cengkih digunakan dalam pengobatan tradisional untuk meredakan berbagai masalah pencernaan seperti kembung, mual, dan gangguan pencernaan lainnya.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/Jahee.jpg" class="card-img-top img-fluid img-thumbnail" alt="Jahe">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Jahe</h5>
+                                            <p class="text-justify">
+                                                Jahe, adalah tumbuhan yang rimpangnya sering digunakan sebagai rempah-rempah dan bahan baku pengobatan tradisional. Rimpangnya berbentuk jemari yang menggembung di ruas-ruas tengah.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/getah inggu.jpg" class="card-img-top img-fluid img-thumbnail" alt="Getah Inggu">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Getah Inggu</h5>
+                                            <p class="text-justify">
+                                                Dalam pengobatan tradisional di beberapa budaya, getah inggu digunakan sebagai bahan obat untuk menyembuhkan luka atau mengobati penyakit kulit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/kunyit.png" class="card-img-top img-fluid img-thumbnail" alt="Kunyit">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Kunyit</h5>
+                                            <p class="text-justify">
+                                                Kunyit sering digunakan dalam perawatan kulit karena sifat antiinflamasi dan antioksidannya. Ini dapat membantu merawat kulit, mengurangi jerawat, menyamarkan bintik-bintik gelap, dan memberikan kilau alami.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/lada putih.jpg" class="card-img-top img-fluid img-thumbnail" alt="Lada">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Lada</h5>
+                                            <p class="text-justify">
+                                                Beberapa penelitian menunjukkan bahwa konsumsi lada dapat membantu meningkatkan kesehatan jantung dengan mengurangi kadar kolesterol dan tekanan darah.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 1/kemiri.jpg" class="card-img-top img-fluid img-thumbnail" alt="Kemiri">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Kemiri</h5>
+                                            <p class="text-justify">
+                                                Minyak kemiri sering digunakan dalam perawatan kecantikan untuk melembapkan kulit dan rambut, serta membantu memperbaiki kerusakan akibat paparan sinar matahari atau bahan kimia.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <h5 class="mb-4">Rempah ini cocok untuk melengkapi hidangan masakan anda.</h5>
+                            <div class="row gy-4 d-flex">
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/cabai bubuk.jpg" class="card-img-top img-fluid img-thumbnail" alt="cabai bubuk">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Cabai Bubuk</h5>
+                                            <p>
+                                                Cabe bubuk merupakan modifikasi dari pengolahan sambal yang dilakukan sampai hasil olahan cabai menjadi kering dan praktis digunakan.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/bawang putih.jpg" class="card-img-top img-fluid img-thumbnail" alt="Bawang putih">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Bawang Putih</h5>
+                                            <p>
+                                                Bawang putih biasa digunakan sebagai bumbu penyedap makanan. Sebelum dipakai sebagai bumbu, bawang putih dihancurkan dengan ditekan dengan sisi pisau (dikeprek) sebelum dirajang halus dan ditumis di penggorengan dengan sedikit minyak goreng.     
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/jeruk nipis.jpg" class="card-img-top img-fluid img-thumbnail" alt="Jeruk Nipis">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Jeruk Nipis</h5>
+                                            <p>
+                                                Jeruk nipis mempunyai rasa yang asam menyegarkan yang membuatnya menjadi bahan pelezat makanan terutama makanan berkuah, seperti soto, sop, mie atau sambal
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/jeruk purut.jpg" class="card-img-top img-fluid img-thumbnail" alt="Jeruk Purut">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Jeruk Purut</h5>
+                                            <p>
+                                                Daun jeruk purut biasanya digunakan untuk mengharumkan masakan seperti soto ayam, pecel dan lotek. Selain itu bisa juga dibuat rempeyek, caranya adalah dengan memotong daun jeruk purut kecil-kecil kemudian campur dengan adonan tepung dan goreng melebar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/kayu manis.jpg" class="card-img-top img-fluid img-thumbnail" alt="Kayu Manis">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Kayu Manis</h5>
+                                            <p>
+                                                Kayu manis merupakan tumbuhan yang digunakan sebagai penambah rasa dan wangi makanan. Menghilangkan bau amis atau bau tak sedap pada bahan makanan dan menciptakan rasa sedap.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/kemangi.jpg" class="card-img-top img-fluid img-thumbnail" alt="Kemangi">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Kemangi</h5>
+                                            <p>
+                                                Kemangi adalah terna kecil yang daunnya biasa dimakan sebagai lalap. Sebagai lalapan, daun kemangi biasanya dimakan bersama-sama daun kubis, irisan ketimun, dan sambal untuk menemani ayam atau ikan goreng.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/ketumbar.jpeg" class="card-img-top img-fluid img-thumbnail" alt="Ketumbar">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Ketumbar</h5>
+                                            <p>
+                                                Ketumbar dapat meningkatkan citarasa dan aroma pada suatu masakan, ketumbar juga dianggap sebagai salah satu makanan sehat, sebab banyak manfaat yang terkandung didalamnya.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 2/Salam koja.jpg" class="card-img-top img-fluid img-thumbnail" alt="Salam Koja">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Salam Koja</h5>
+                                            <p>
+                                                Salam koja sering dipakai sebagai bumbu kari, hingga sering dikenal sebagai daun kari. Daun kari termasuk bahan alami yang kaya akan kandungan antioksidan. Oleh sebab itu, daun kari mampu menjaga kesehatan tubuh dari luar dan dalam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <h5 class="mb-4">Beberapa rempah-rempah yang juga memiliki banyak manfaat.</h5> 
+                            <div class="row gy-4 d-flex">
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/biji kopi.jpg" class="card-img-top img-fluid img-thumbnail" alt="Biji Kopi">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Biji Kopi</h5>
+                                            <p>
+                                                Biji Kopi dapat menghilangkan bau tidak sedap di dalam rumah. Sehingga misalnya ketika ada keluarga yang baru meninggal dunia, biasanya kopi diletakkan di sekitar peti atau di dalam peti.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/dupa.jpg" class="card-img-top img-fluid img-thumbnail" alt="Dupa">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Dupa</h5>
+                                            <p>
+                                                Dupa digunakan untuk memberikan aroma yang menyegarkan dan menyenangkan di dalam ruangan, seringkali sebagai alternatif alami untuk pengharum ruangan sintetis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/biji cacao.jpg" class="card-img-top img-fluid img-thumbnail" alt="Biji Cacao">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Biji Cacao</h5>
+                                            <p>
+                                                Biji kakao atau biji cokelat adalah biji buah pohon kakao yang telah melalui proses fermentasi dan pengeringan dan siap diolah.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/daun mint.jpg" class="card-img-top img-fluid img-thumbnail" alt="Daun Mint">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Daun Mint</h5>
+                                            <p>
+                                                Daun mint adalah daun kecil berwarna hijau dengan aroma segar yang khas. Rasanya yang segar dan aroma yang menenangkan membuatnya menjadi bahan yang populer dalam masakan dan minuman.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/biji wijen.png" class="card-img-top img-fluid img-thumbnail" alt="Biji Wijen">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Biji Wijen</h5>
+                                            <p>
+                                                Wijen adalah semak semusim yang termasuk dalam famili Pedaliaceae. Tanaman ini dibudidayakan sebagai sumber minyak nabati, yang dikenal sebagai minyak wijen, yang diperoleh dari ekstraksi bijinya.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/rosemary.jpg" class="card-img-top img-fluid img-thumbnail" alt="Rosmeri">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Rosemari</h5>
+                                            <p>
+                                                Rosemari adalah tumbuhan penghasil rempah-rempah dan bumbu masak dengan nama sama. Oleh generasi Indonesia sekarang, yang tidak mengenal nama bumbu ini dalam bahasa Belanda, ia lebih dikenal dengan nama bahasa Inggrisnya, rosemary
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/biji pala.png" class="card-img-top img-fluid img-thumbnail" alt="Biji Pala">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Biji Pala</h5>
+                                            <p>
+                                                Biji pala yang kering atau bubuk pala dapat digunakan untuk memberikan aroma yang hangat dan khas di dalam ruangan.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="card h-100">
+                                        <img src="img/rempah-rempah/Kategori 3/vanili.jpg" class="card-img-top img-fluid img-thumbnail" alt="Vanili">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Vanili</h5>
+                                            <p>
+                                                Ekstrak vanili atau potongan polong vanili dapat digunakan untuk memberikan aroma manis dan menyenangkan di dalam ruangan.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- produk end -->
+
+            <!-- Contact Start -->
+            <div class="container-fluid py-5" id="kontak">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <h2 class="display-6">Kontak Kami</h2>
+                    </div>
+                    <div class="row g-5 mb-5 rowkontak">
+                        <!-- <div class="row col-md-4">
+                            <div class="col-4 social">
+                                <a href="https://www.facebook.com/people/Syarif-Saputra/100008714533103/?mibextid=WC7FNe" alt="Facebook anak pemilik usaha"><i class="fa-brands fa-square-facebook custom-icon"></i></a>
+                            </div>
+                            <div class="col-4 social">
+                                <a href="https://www.instagram.com/syarif_saputra31/"alt="instagram anak pemilik usaha"><i class="fa-brands fa-square-instagram custom-icon"></i></a>
+                            </div>
+                            <div class="col-4 social">
+                                <a href="https://api.whatsapp.com/send/?phone=6289618434910&text&type=phone_number&app_absent=0" alt="no wa anak pemilik usaha"><i class="fa-brands fa-square-whatsapp custom-icon"></i></a>
+                            </div>
+                        </div> -->
+                        <div class="col-md-4 text-center">
+                            <div class="btn-square mx-auto mb-3 social">
+                                <a href="https://www.instagram.com/syarif_saputra31/"><i class="fa-brands fa-square-instagram custom-icon"></i></a>
+                            </div>
+                            <p class="mb-2">Instagram</p>
+                            <p class="mb-0">@miniproject_k5</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="btn-square mx-auto mb-3 social">
+                                <a href="https://api.whatsapp.com/send/?phone=6289618434910&text&type=phone_number&app_absent=0"><i class="fa-brands fa-square-whatsapp custom-icon"></i></a>
+                            </div>
+                            <p class="mb-2">WhatsApp</p>
+                            <p class="mb-0">+62 896 1843 4910</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="btn-square mx-auto mb-3 social">
+                                <a href="https://maps.app.goo.gl/W6ncQcvvCKM1cmk97"><i class="fa-solid fa-location-dot custom-icon"></i></a>    
+                            </div>
+                            <p class="mb-2">Alamat</p>
+                            <p class="mb-0">Dusun II, Ringinlarik, Kec. Musuk, Kabupaten Boyolali</p>
+                        </div>
+                    </div>
+                    <div class="row kontakkami">
+                        <div class="col-lg-6">
+                            <h3 class="mb-4">Email</h3>
+                            <p class="mb-4">Silahkan isi Formulir dibawah ini agar terhubung dengan kami</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="" autocomplete="name" />
+                                            <label for="name">Nama</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="" autocomplete="email"/>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" placeholder="" />
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="" id="message"></textarea>
+                                            <label for="message">Pesan</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <button type="button" class="btn btn-outline-success">Kirim</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6">        
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1310679308162!2d110.5396425!3d-7.5606854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a69106bae2ec9%3A0xd92fe13c55fbc595!2sUD%20Putri%20Mandiri!5e0!3m2!1sid!2sid!4v1710919847944!5m2!1sid!2sid" allowfullscreen="true" loading="lazy" id="iframe-maps" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+        </main>
+
+        <footer>
+            <!-- Footer Start -->
+            <div class="container-fluid footer mt-5"">
+                <div class="container py-3">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <h4 class="mb-4">UD Putri Mandiri</h4>
+                            <p style="text-align: justify;">
+                                UD Putri Mandiri, berlokasi di Dusun II, Ringinlarik, Kecamatan Musuk, Kabupaten Boyolali, Jawa Tengah 57331. Berdiri sejak tahun 2022 untuk menyajikan beragam rempah-rempah terbaik.
+                            </p>
+                        </div>
+                        <div class="col-lg-3 linkcepat col-md-6">
+                            <h4 class="mb-4">Link Cepat</h4>
+                            <ul>
+                                <li>
+                                    <a href="#carousel" id="linkcepat">Beranda</a>
+                                </li>
+                                <li>
+                                    <a href="#tentangkami" id="linkcepat">Tentang Kami</a>
+                                </li>
+                                <li>
+                                    <a href="#produk" id="linkcepat">Produk</a>
+                                </li>
+                                <li>
+                                    <a href="#kontak" id="linkcepat">Kontak Kami</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="mb-4">Jam Operasional</h4>
+                            <p class="mb-1">Senin - Jumat</p>
+                            <h6 class="text-light">08:30 - 17:00</h6>
+                            <p class="mb-1">Sabtu</p>
+                            <h6 class="text-light">08:30 - 14:00</h6>
+                            <p class="mb-1">Minggu</p>
+                            <h6 class="text-light">Tutup</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright Start -->
+            <div class="container-fluid copyright py-3">
+                <div class="container">
+                    <!-- <div class="row justify-content-center align-items-center"> -->
+                        <div class="copyright2 my-1">
+                            copyright&copy; 2024 Mini Project Kelompok 5 Kelas Fullstack #4
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <!-- Copyright End -->
+            <!-- Footer End -->
+        </footer>
+
+        <script src="https://kit.fontawesome.com/1e948c2aab.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

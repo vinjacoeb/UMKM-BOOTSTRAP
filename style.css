@@ -1,0 +1,164 @@
+.navbar {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* min-height: 80px; */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+html{
+    scroll-padding-top: 70px;
+}
+main {
+    padding-top: 70px;
+}
+p, h1, h2, h3, h4, h5, form, iframe, a {
+    opacity: 0; /* Atur opasitas awal menjadi 0 */
+    transition: opacity 2s ease; /* Tambahkan efek transisi */
+}
+.navbar-brand img{
+    height: 50px; /* Menyesuaikan tinggi navbar */
+}
+.nav-link {
+    font-size: large;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: green;
+}
+@media (max-width: 991.98px) {
+    .navbar-collapse .nav-item {
+        border-bottom: 1px solid #009b4c;
+    }
+    .navbar-collapse .nav-item:last-child {
+        border-right: none;
+    }
+}
+
+.carousel-item {
+    height: 91vh;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.carousel-caption {
+    font-family: 'Palatino';
+    top: 40%;
+}
+@media (max-width: 767px) {
+    .carousel-caption {
+        top: 30%;
+    }
+}
+@media (max-width: 375px) {
+    .carousel-caption {
+        top: 20%;
+    }
+}
+.carousel-caption h4 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    /* margin-top: 30px; */
+}
+.carousel-caption h5 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    /* margin-top: 30px; */
+}
+.carousel-caption p {
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+    line-height: 1.9;
+}
+.carousel-caption a {
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 30px;
+    display: inline-block;
+    background: #ffffff;
+    margin-top: 25px;
+}
+.border-top {
+    border: #009b4c solid 2px;
+    width: 100%;
+}
+.buttonKategori:active,
+.buttonKategori:focus,
+.buttonKategori:hover {
+    background-color: #009b4c !important;
+    color: white !important;
+}
+.buttonKategori {
+    background-color: white !important;
+    color: black !important;
+}
+.buttonKategori.active{
+    background-color: #009b4c !important;
+    color: white !important;
+}
+.card {
+    border: #009b4c solid 1px;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.zoomed {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+.social {
+    width: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rowkontak{
+    padding: 20px;
+}
+.kontakkami{
+    border:2px solid green; 
+    border-radius: 10px;
+    padding: 20px;
+}
+.social {
+    width: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe{
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    border: 0;
+}
+#message{
+    height: 120px;
+}
+.footer {
+    background-color: #009b4c;
+    color: white;
+    text-decoration: none;
+}
+#linkcepat {
+    text-decoration: none;
+    color: white;
+}
+
+
+.custom-icon{
+    font-size: 80px;
+    color: #009b4c;
+}
+.copyright {
+    background-color: #A8CD9F;
+    justify-content: space-between;
+}
+.copyright2{
+    color: black;
+    text-align: center;
+}
